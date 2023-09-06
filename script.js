@@ -6,7 +6,7 @@ function startTimer() {
  
     let totalTime = (hours * 3600 + mins * 60 + seconds);
  
-    if (totalTime < 0) {
+    if (totalTime <=0) {
        alert("Please set a valid time before starting");
     } else {
        document.getElementById("inputSection").style.display = "none";
